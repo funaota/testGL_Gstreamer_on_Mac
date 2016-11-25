@@ -1,15 +1,14 @@
-//
-//  main.cpp
-//  testOpenGL
-//
-//  Created by takujifunao on 2016/08/01.
-//  Copyright © 2016年 takujifunao. All rights reserved.
-//
 
-#include <iostream>
+#include "OmniTexture.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+int main(int argc, char* argv[]){
+    OmniTexture omni;
+    omni.GlutInit(argc, argv);
+    
+    omni.TestStart();
+    std::cout << "ccccccccccc" << std::endl;
+//    while(1){
+//        omni.GetTexturePtr();
+//    }
+    
 }
